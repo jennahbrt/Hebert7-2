@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "building myBlink.cpp and dereck.cpp"
+g++ myBlink.cpp derek_LED.cpp -o myBlink
+echo "build complete"
+echo "example exectution:"./myBlink on 2" will turn on LED2 "
+echo "example exectution:"./myBlink blink 3 5 " will blink LED3 5 times "
+
